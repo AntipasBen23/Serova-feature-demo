@@ -1,0 +1,76 @@
+{
+  "PT-2025-002": [
+    {
+      "id": "NEO-001",
+      "peptideSequence": "LATEKSRWSG",
+      "gene": "BRAF",
+      "mutation": "V600E",
+      "hlaAllele": "HLA-A*02:01",
+      "mlScore": 0.94,
+      "immunogenicity": 8.7,
+      "bindingAffinity": 12.3,
+      "confidence": "High",
+      "rank": 1
+    },
+    {
+      "id": "NEO-002",
+      "peptideSequence": "KTWGQYWQV",
+      "gene": "NRAS",
+      "mutation": "Q61K",
+      "hlaAllele": "HLA-A*02:01",
+      "mlScore": 0.89,
+      "immunogenicity": 7.9,
+      "bindingAffinity": 18.7,
+      "confidence": "High",
+      "rank": 2
+    },
+    {
+      "id": "NEO-003",
+      "peptideSequence": "SIYGKFRLV",
+      "gene": "TP53",
+      "mutation": "R273H",
+      "hlaAllele": "HLA-B*07:02",
+      "mlScore": 0.86,
+      "immunogenicity": 7.4,
+      "bindingAffinity": 22.1,
+      "confidence": "Medium",
+      "rank": 3
+    },
+    {
+      "id": "NEO-004",
+      "peptideSequence": "FLDEFMEGV",
+      "gene": "KRAS",
+      "mutation": "G12D",
+      "hlaAllele": "HLA-A*01:01",
+      "mlScore": 0.82,
+      "immunogenicity": 6.8,
+      "bindingAffinity": 28.4,
+      "confidence": "Medium",
+      "rank": 4
+    },
+    {
+      "id": "NEO-005",
+      "peptideSequence": "AMLGTHTMEV",
+      "gene": "PIK3CA",
+      "mutation": "E545K",
+      "hlaAllele": "HLA-A*02:01",
+      "mlScore": 0.78,
+      "immunogenicity": 6.2,
+      "bindingAffinity": 35.6,
+      "confidence": "Medium",
+      "rank": 5
+    },
+    {
+      "id": "NEO-006",
+      "peptideSequence": "VLFGKVLGL",
+      "gene": "EGFR",
+      "mutation": "L858R",
+      "hlaAllele": "HLA-B*44:02",
+      "mlScore": 0.71,
+      "immunogenicity": 5.5,
+      "bindingAffinity": 45.2,
+      "confidence": "Low",
+      "rank": 6
+    }
+  ]
+}
