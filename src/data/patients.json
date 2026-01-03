@@ -1,0 +1,34 @@
+{
+  "patients": [
+    {
+      "id": "PT-2025-001",
+      "name": "Patient Alpha",
+      "tumorType": "Melanoma",
+      "status": "processing",
+      "progress": 45,
+      "sequencingDate": "2025-01-02",
+      "mutations": 847,
+      "neoantigenCandidates": 234
+    },
+    {
+      "id": "PT-2025-002",
+      "name": "Patient Beta",
+      "tumorType": "NSCLC",
+      "status": "completed",
+      "progress": 100,
+      "sequencingDate": "2025-01-01",
+      "mutations": 623,
+      "neoantigenCandidates": 198
+    },
+    {
+      "id": "PT-2025-003",
+      "name": "Patient Gamma",
+      "tumorType": "Colorectal",
+      "status": "queued",
+      "progress": 0,
+      "sequencingDate": "2025-01-03",
+      "mutations": 0,
+      "neoantigenCandidates": 0
+    }
+  ]
+}
