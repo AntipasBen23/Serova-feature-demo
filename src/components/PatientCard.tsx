@@ -2,6 +2,7 @@
 
 import { Patient } from '@/types';
 import { useRouter } from 'next/navigation';
+import { useProgressSimulation } from '@/hooks/useProgressSimulation';
 
 interface PatientCardProps {
   patient: Patient;
@@ -9,6 +10,7 @@ interface PatientCardProps {
 
 export default function PatientCard({ patient }: PatientCardProps) {
   const router = useRouter();
+  const simulatedProgress = useProgressSimulation(patient.progress, patient.status);
 
   const getStatusColor = (status: string) => {
     switch (status) {
@@ -61,12 +63,12 @@ export default function PatientCard({ patient }: PatientCardProps) {
         <div>
           <div className="flex justify-between text-xs text-slate-400 mb-2">
             <span>ML Analysis Progress</span>
-            <span>{patient.progress}%</span>
+            <span>{simulatedProgress}%</span>
           </div>
           <div className="w-full bg-slate-800 rounded-full h-2">
             <div
               className="bg-cyan-400 h-2 rounded-full transition-all duration-500"
-              style={{ width: `${patient.progress}%` }}
+              style={{ width: `${simulatedProgress}%` }}
             ></div>
           </div>
         </div>
