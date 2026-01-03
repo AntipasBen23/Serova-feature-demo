@@ -6,7 +6,7 @@ import { Patient } from '@/types';
 import PatientCard from './PatientCard';
 
 export default function PatientList() {
-  const [patients] = useState<Patient[]>(patientsData.patients);
+  const [patients] = useState<Patient[]>(patientsData.patients as Patient[]);
 
   return (
     <div className="space-y-4">
